@@ -37,3 +37,13 @@
 
   -- preview data
   * data.head()
+    
+3. Classes
+* #Define the Surfer Class
+   class Surfer():
+
+ * #Initialize the Surfer constructor 
+     def __init__(self, name, hometown, rank):
+         self.name = f"{name} Dude"
+         self.hometown = f"{hometown} Waves"
+         self.rank = rank
